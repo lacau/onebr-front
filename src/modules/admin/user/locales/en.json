@@ -1,0 +1,49 @@
+{
+  "filter": {
+    "search": "Search for the desired user",
+    "add": "Add user"
+  },
+  "headline": {
+    "title": "",
+    "subtitle": ""
+  },
+  "columns": {
+    "email": "E-mail",
+    "name": "Name",
+    "species": "Species",
+    "status": "Status"
+  },
+  "form": {
+    "title": {
+      "new": "Add user",
+      "edit": "Edit user"
+    },
+    "actions": {
+      "discard": "discard",
+      "save": "save"
+    },
+    "fields": {
+      "name": "Name",
+      "email": "E-mail",
+      "user": "User",
+      "password": {
+        "label": "Password",
+        "error": {
+          "min": "At least 6 characters"
+        }
+      },
+      "re_password": {
+        "label": "Confirm password",
+        "error": {
+          "not_match": "Password must match"
+        }
+      },
+      "species": "Species"
+    }
+  },
+  "messages": {
+    "added": "User added",
+    "updated": "User updated",
+    "deleted": "User deleted"
+  }
+}

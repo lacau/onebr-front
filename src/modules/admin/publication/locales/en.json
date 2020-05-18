@@ -1,0 +1,50 @@
+{
+  "headline": {
+    "title": "",
+    "subtitle": ""
+  },
+  "filter": {
+    "search": "Search for the desired publication",
+    "add": "add publication"
+  },
+  "columns": {
+    "type": "Type",
+    "order": "Order",
+    "date": "Date",
+    "link": "Link",
+    "title": "Title"
+  },
+  "form": {
+    "title": {
+      "new": "Add publication",
+      "edit": "Edit publication"
+    },
+    "actions": {
+      "delete": "Delete publication",
+      "discard": "discard",
+      "save": "save"
+    },
+    "fields": {
+      "type": "Type",
+      "order": "Order",
+      "date": "Date",
+      "link": "Link",
+      "title": "Title",
+      "description": "Description",
+      "english": "English",
+      "portuguese": "Portuguese"
+    },
+    "confirm_delete_title": "Warning!",
+    "confirm_delete_message": "Deleting an publication is permanent."
+  },
+  "types": {
+    "publication": "Publication",
+    "video": "Video",
+    "pop": "POP"
+  },
+  "messages": {
+    "added": "Publication added",
+    "updated": "Publication deleted",
+    "deleted": "Publication updated"
+  }
+}

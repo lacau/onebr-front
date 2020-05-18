@@ -1,0 +1,31 @@
+// Globals
+$body-font-family: 'Montserrat', sans-serif;
+$container-max-widths: (
+  'md': 100%,
+  'lg': 1440px,
+  'xl': 1440px
+);
+
+// v-btn
+$btn-font-weight: bold;
+$btn-text-transform: lowercase;
+$btn-sizes: (
+  'x-small': 20,
+  'small': 28,
+  'default': 36,
+  'large': 50,
+  'x-large': 58
+);
+
+// v-text-field
+$text-field-filled-full-width-outlined-slot-min-height: 50px;
+$text-field-enclosed-prepend-append-margin-top: 15px;
+
+// v-data-table
+$data-table-dense-header-height: 40px;
+$data-table-dense-row-height: 32px;
+
+// v-tooltip
+$tooltip-background-color: #fff;
+$tooltip-text-color: #333;
+$tooltip-padding: 10px 20px;

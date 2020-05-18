@@ -1,0 +1,25 @@
+{
+  "headline": {
+    "title": "",
+    "subtitle": ""
+  },
+  "form": {
+    "title": "Send us a message!",
+    "field": {
+      "name": {
+        "placeholder": "Name"
+      },
+      "email": {
+        "placeholder": "E-mail"
+      },
+      "telephone": {
+        "placeholder": "Phone number"
+      },
+      "message": {
+        "placeholder": "Write your message..."
+      }
+    }
+  },
+  "find_us": "Find us",
+  "mail_success": "Message sent"
+}

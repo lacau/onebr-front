@@ -1,0 +1,67 @@
+{
+	"login": "login",
+	"locales": {
+		"pt-BR": "portuguese",
+		"en": "english"
+	},
+	"see_more": "Learn more",
+	"actions": {
+		"submit": "submit",
+		"cancel": "cancelar",
+		"proceed": "proceed",
+		"edit": "edit",
+		"print": "print"
+	},
+	"menu": {
+		"1": {
+			"title": "",
+			"text": ""
+		},
+		"2": {
+			"title": "",
+			"text": ""
+		},
+		"3": {
+			"title": "",
+			"text": ""
+		},
+		"4": {
+			"title": "",
+			"text": ""
+		}
+	},
+	"footer": {
+		"by": "",
+		"address": {
+			"line": {
+				"1": "",
+				"2": "",
+				"3": ""
+			}
+		}
+	},
+	"validation": {
+		"email": "Fill in a valid e-mail",
+		"required": "Required field",
+		"tel": "Fill in a valid telephone"
+	},
+	"brazil": "Brazil",
+	"copyright": "Copyright &#169; 2020 One BR  |  Developed by",
+	"views": "views",
+	"clear": "Clear",
+	"back": "Voltar",
+	"yes": "Yes",
+	"no": "No",
+	"get_out": "Get out",
+	"administrative_area": "administrative area",
+	"view_site": "view site",
+	"hello": "Hello",
+	"status": "Status",
+	"active": "Active",
+	"inactive": "Inactive",
+	"edit_profile": "Edit profile",
+	"default_server_error": "An error has occurred",
+	"messages": {
+		"profile_updated": "Profile updated"
+	}
+}

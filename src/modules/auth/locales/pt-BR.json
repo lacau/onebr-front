@@ -1,0 +1,14 @@
+{
+	"headline": "Faça seu login",
+	"form": {
+		"actions": {
+			"submit": "Entrar"
+		},
+		"labels": {
+			"login": "Login",
+			"password": "Senha"
+		}
+	},
+	"forgot_password": "Esqueci minha senha",
+	"forgot_password_prompt_message": "Informe o nome de usuário ou email"
+}

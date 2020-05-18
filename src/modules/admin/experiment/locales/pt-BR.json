@@ -1,0 +1,177 @@
+{
+  "filter": {
+    "search": "O que deseja buscar?",
+    "start_date": "Data inicio",
+    "end_date": "Data fim",
+    "specie": "Buscar por espécie",
+    "add": "Incluir experimento"
+  },
+  "headline": {
+    "title": "",
+    "subtitle": ""
+  },
+  "columns": {
+    "specie": "Espécie",
+    "id": "ID",
+    "city": "Local",
+    "date": "Data",
+    "origin": "Origem",
+    "source": "Amostra",
+    "host": "Hospedeiro",
+    "st": "ST",
+    "resistance_genes": "Genes de resistência"
+  },
+  "form": {
+    "title": {
+      "new": "Novo experimento",
+      "edit": "Editar experimento"  
+    },
+    "actions": {
+      "delete": "excluir experimento",
+      "discard": "descartar",
+      "save": "salvar"
+    },
+    "section": {
+      "antibiogram": "Antibiograma",
+      "genomic_information": "Informações genômicas",
+      "resistome": "Resistoma",
+      "heavy_metal": "Metal pesado/QAC",
+      "virulome": "Viruloma",
+      "k_locus": "Locus K",
+      "wzi": "Wzi",
+      "wzc": "Wzc",
+      "serotype": "Sorotipo",
+      "fim_type": "Fímbria do tipo 1 (fimH)",
+      "clermont_typing": "Clermont filogrupo",
+      "serovar": "Sorovar",
+      "plasmidome": "Plasmidoma"
+    },
+    "fields": {
+      "aminoglycoside": {
+        "label": "Aminoglicosídeos",
+        "placeholder": "O que deseja buscar?"
+      },
+      "blactam": {
+        "label": "β-lactâmicos",
+        "placeholder": "O que deseja buscar?"
+      },
+      "colistin": {
+        "label": "Colistina",
+        "placeholder": "O que deseja buscar?"
+      },
+      "fosfomycin": {
+        "label": "Fosfomicina",
+        "placeholder": "O que deseja buscar?"
+      },
+      "fusidic_acid": {
+        "label": "Ácido fusídico",
+        "placeholder": "O que deseja buscar?"
+      },
+      "glycopeptide": {
+        "label": "Glicopeptídeos",
+        "placeholder": "O que deseja buscar?"
+      },
+      "macrolide": {
+        "label": "Macrolídeos",
+        "placeholder": "O que deseja buscar?"
+      },
+      "nitroimidazole": {
+        "label": "Nitroimidazólicos",
+        "placeholder": "O que deseja buscar?"
+      },
+      "oxazolidinone": {
+        "label": "Oxazolidinonas",
+        "placeholder": "O que deseja buscar?"
+      },
+      "phenicol": {
+        "label": "Fenicóis",
+        "placeholder": "O que deseja buscar?"
+      },
+      "quinolone": {
+        "label": "Quinolonas",
+        "placeholder": "O que deseja buscar?"
+      },
+      "rifampicin": {
+        "label": "Rifampicinas",
+        "placeholder": "O que deseja buscar?"
+      },
+      "sulphonamide": {
+        "label": "Sulfonamidas",
+        "placeholder": "O que deseja buscar?"
+      },
+      "tetracycline": {
+        "label": "Tetraciclinas",
+        "placeholder": "O que deseja buscar?"
+      },
+      "trimethoprim": {
+        "label": "Trimetoprim",
+        "placeholder": "O que deseja buscar?"
+      },
+      "mer": "MER",
+      "etp": "ETP",
+      "ipm": "IPM",
+      "cro": "CRO",
+      "caz": "CAZ",
+      "cfx": "CFX",
+      "cpm": "CPM",
+      "ctx": "CTX",
+      "nal": "NAL",
+      "cip": "CIP",
+      "amc": "AMC",
+      "atm": "ATM",
+      "ami": "AMI",
+      "gen": "GEN",
+      "sxt": "SXT",
+      "eno": "ENO",
+      "chl": "CHL",
+      "fos": "FOS",
+      "cep": "CEP",
+      "ctf": "CTF",
+      "amp": "AMP",
+      "tet": "TET",
+      "col": "COL*",
+      "id": "ID",
+      "barcode": "Barcode",
+      "specie": "Specie",
+      "country": "País",
+      "city": "Cidade",
+      "region": "Região",
+      "lat": "Latitude",
+      "long": "Longitude",
+      "date": "Data",
+      "origin": "Origem",
+      "source": "Amostra",
+      "host": "Hospedeiro",
+      "st": "ST",
+      "heavy_metal": "Metal pesado/QAC",
+      "virulome": "Viruloma",
+      "antibiogram": "Antibiograma",
+      "report": "Legenda: MER, Meropenem; ETP, Ertapenem; IMP, Imipenem; CRO, Ceftriaxona; CAZ, Ceftazidima; CFO, Cefoxitina; CPM, Cefepima; CTX, Cefotaxima; NAL, Ácido nalidíxico; CIP, Ciprofloxacino; AMC, Amoxicilina e ácido clavulânico; ATM, Aztreonam; AMI, Amicacina; GEN, Gentamicina; SXT, Sulfametoxazol-trimetoprima; ENO, Enrofloxacina; CLO, Cloranfenicol; FOS, Fosfomicina; CFL, Cefalotina; CEF, Ceftiofur; AMP, Ampicilina;TET, Tetraciclina; COL*, Colistina. <br /><br /> Os antibióticos foram testados pelo método de disco difusão, exceto a colistina (*) que foi analisada pelo método de microdiluição em caldo para determinar a concentração inibitória mínima (CIM). As interpretações foram realizadas de acordo com o CLSI e BrCAST.",
+      "genomic_information": "Informações genômicas",
+      "plasmidome": "Plasmidoma",
+      "fim_type": "Fímbria",
+      "clermont_typing": "Clermont filogrupo",
+      "serotype": "Sorotipo",
+      "serovar": "Sorovar",
+      "k_locus": "Locus K",
+      "wzi": "Wzi",
+      "wzc": "Wzc",
+      "access_no_gb": "Número de acesso (GB)",
+      "contigs_no": "No. de contigs",
+      "genome_bp": "Genoma (pb)",
+      "sequencer": "Sequenciador",
+      "assembler": "Método de montagem",
+      "resistome": "Resistoma",
+      "researcher": "Pesquisador",
+      "antigen_o": "Antigen O",
+      "antigen_h": "Antigen H"
+    },
+    "confirm_delete_title": "Atenção!",
+    "confirm_delete_message": "A exclusão de um experimento é permanente."
+  },
+  "messages": {
+    "added": "Experimento adicionado",
+    "updated": "Experimento excluído",
+    "deleted": "Experimento atualizado"
+  }
+}

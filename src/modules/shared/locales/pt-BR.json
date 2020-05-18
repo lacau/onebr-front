@@ -1,0 +1,67 @@
+{
+	"login": "login",
+	"locales": {
+		"pt-BR": "português",
+		"en": "inglês"
+	},
+	"see_more": "veja mais",
+	"actions": {
+		"submit": "enviar",
+		"cancel": "cancelar",
+		"proceed": "prosseguir",
+		"edit": "editar",
+		"print": "imprimir"
+	},
+	"menu": {
+		"1": {
+			"title": "",
+			"text": ""
+		},
+		"2": {
+			"title": "",
+			"text": ""
+		},
+		"3": {
+			"title": "",
+			"text": ""
+		},
+		"4": {
+			"title": "",
+			"text": ""
+		}
+	},
+	"footer": {
+		"by": "",
+		"address": {
+			"line": {
+				"1": "",
+				"2": "",
+				"3": ""
+			}
+		}
+	},
+	"validation": {
+		"email": "Preencha com um e-mail válido",
+		"required": "Campo obrigatório",
+		"tel": "Preencha com um telefone válido"
+	},
+	"brazil": "Brasil",
+	"copyright": "Direitos reservados &#169; 2020 One BR  |  Desenvolvido por",
+	"views": "visualizações",
+	"clear": "Limpar",
+	"back": "Voltar",
+	"yes": "Sim",
+	"no": "Não",
+	"get_out": "Sair",
+	"administrative_area": "área administrativa",
+	"view_site": "visualizar site",
+	"hello": "Olá",
+	"status": "Status",
+	"active": "Ativo",
+	"inactive": "Inativo",
+	"edit_profile": "Editar perfil",
+	"default_server_error": "Ocorreu um erro",
+	"messages": {
+		"profile_updated": "Perfil atualizado"
+	}
+}

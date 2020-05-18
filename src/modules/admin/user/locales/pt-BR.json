@@ -1,0 +1,49 @@
+{
+  "filter": {
+    "search": "Procure pelo usuário desejado",
+    "add": "Incluir usuário"
+  },
+  "headline": {
+    "title": "",
+    "subtitle": ""
+  },
+  "columns": {
+    "email": "E-mail",
+    "name": "Nome",
+    "species": "Espécies",
+    "status": "Status"
+  },
+  "form": {
+    "title": {
+      "new": "Incluir usuário",
+      "edit": "Editar usuário"
+    },
+    "actions": {
+      "discard": "descartar",
+      "save": "salvar"
+    },
+    "fields": {
+      "name": "Nome",
+      "email": "E-mail",
+      "user": "Usuário",
+      "password": {
+        "label": "Senha",
+        "error": {
+          "min": "No mínimo 6 caracteres"
+        }
+      },
+      "re_password": {
+        "label": "Confirmar senha",
+        "error": {
+          "not_match": "As senhas devem ser iguais"
+        }
+      },
+      "species": "Espécies"
+    }
+  },
+  "messages": {
+    "added": "Usuário adicionado",
+    "updated": "Usuário atualizado",
+    "deleted": "Usuário atualizado"
+  }
+}

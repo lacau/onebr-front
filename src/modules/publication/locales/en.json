@@ -1,0 +1,13 @@
+{
+  "headline": {
+    "title": "",
+    "subtitle": ""
+  },
+  "read_publication": "read more",
+  "content_type": "Content type",
+  "type": {
+    "PUBLICATION": "read more",
+    "VIDEO": "see video",
+    "POP": "see content"
+  }
+}

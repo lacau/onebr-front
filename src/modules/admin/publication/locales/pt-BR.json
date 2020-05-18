@@ -1,0 +1,50 @@
+{
+  "headline": {
+    "title": "",
+    "subtitle": ""
+  },
+  "filter": {
+    "search": "Procure pela publicação desejada",
+    "add": "Incluir publicação"
+  },
+  "columns": {
+    "type": "Tipo",
+    "order": "Ordem",
+    "date": "Data",
+    "link": "Link",
+    "title": "Titulo"
+  },
+  "form": {
+    "title": {
+      "new": "Incluir publicação",
+      "edit": "Editar publicação"
+    },
+    "actions": {
+      "delete": "Excluir publicação",
+      "discard": "descartar",
+      "save": "salvar"
+    },
+    "fields": {
+      "type": "Tipo",
+      "order": "Ordem",
+      "date": "Data",
+      "link": "Link",
+      "title": "Titulo",
+      "description": "Descrição",
+      "english": "Inglês",
+      "portuguese": "Português"
+    },
+    "confirm_delete_title": "Atenção!",
+    "confirm_delete_message": "A exclusão de uma publicação é permanente."
+  },
+  "types": {
+    "publication": "Publicação",
+    "video": "Vídeo",
+    "pop": "POP"
+  },
+  "messages": {
+    "added": "Publicação adicionada",
+    "updated": "Publicação excluida",
+    "deleted": "Publicação atualizada"
+  }
+}

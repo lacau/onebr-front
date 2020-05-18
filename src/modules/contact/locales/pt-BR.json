@@ -1,0 +1,25 @@
+{
+  "headline": {
+    "title": "",
+    "subtitle": ""
+  },
+  "form": {
+    "title": "Nos mande uma mensagem!",
+    "field": {
+      "name": {
+        "placeholder": "Nome"
+      },
+      "email": {
+        "placeholder": "Email"
+      },
+      "telephone": {
+        "placeholder": "Telefone"
+      },
+      "message": {
+        "placeholder": "Escreva sua mensagem..."
+      }
+    }
+  },
+  "find_us": "Nos encontre",
+  "mail_success": "Mensagem enviada"
+}

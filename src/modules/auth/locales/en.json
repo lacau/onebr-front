@@ -1,0 +1,15 @@
+{
+	"headline": "Sing in",
+	"form": {
+		"actions": {
+			"submit": "Login"
+		},
+		"labels": {
+			"login": "Username",
+			"password": "Password"
+		}
+	},
+	"forgot_password": "I forgot my password",
+	"forgot_password_prompt_message": "Enter username or email"
+
+}
