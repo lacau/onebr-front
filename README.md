@@ -5,7 +5,7 @@
 - Docker
 
 # Configurando variáveis de ambiente
-- Editar o arquivo **.env** localizado na raiz do projeto preenchendo as variáveis **VUE_APP_MAPBOX_USER_NAME** e **VUE_APP_MAPBOX_ACCESS_TOKEN** com as credencias da conta mapbox
+- Editar o arquivo **.env** localizado na raiz do projeto preenchendo as variáveis **VUE_APP_MAPBOX_USER_NAME** e **VUE_APP_MAPBOX_ACCESS_TOKEN** com as credenciais da conta mapbox
 
 # Buildando a imagem docker #
 - Acessar caminho onde está o código fonte (raiz)
