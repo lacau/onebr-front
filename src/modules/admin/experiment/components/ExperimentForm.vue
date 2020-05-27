@@ -1,5 +1,5 @@
 <template>
-  <v-dialog max-width="850" v-model="isOpen">
+  <v-dialog persistent max-width="850" v-model="isOpen">
     <v-card v-if="isOpen">
       <v-card-title class="px-10 pt-8">
         {{ $t(`admin.experiment.form.title.${isEditing ? 'edit' : 'new'}`) }}
@@ -194,28 +194,26 @@
                 v-for="(group, index) in antibiogramGroup"
                 :key="index"
               >
-                <v-radio-group
-                  row
-                  hide-details
-                  class="antibiogram mt-0"
-                  v-for="field in group"
-                  v-model="model.antibiogram[field]"
-                  :label="$t(`admin.experiment.form.fields.${field}`)"
-                  :key="field"
-                >
-                  <v-radio
-                    class="font-weight-bold"
-                    color="#BBBBBB"
-                    label="S"
-                    value="S"
-                  />
-                  <v-radio
-                    class="font-weight-bold"
-                    color="#BBBBBB"
-                    label="R"
-                    value="R"
-                  />
-                </v-radio-group>
+                <div class="antibiogram" v-for="field in group" :key="field">
+                  <label>
+                    {{ $t(`admin.experiment.form.fields.${field}`) }}
+                  </label>
+                  <v-btn-toggle
+                    dense
+                    group
+                    color="primary"
+                    :value="model.antibiogram[field]"
+                    @change="model.antibiogram[field] = $event || null"
+                  >
+                    <v-btn text small value="S" :ripple="false">
+                      S
+                    </v-btn>
+
+                    <v-btn text small value="R" :ripple="false">
+                      R
+                    </v-btn>
+                  </v-btn-toggle>
+                </div>
               </v-col>
             </v-row>
           </dialog-section>
@@ -732,8 +730,32 @@ export default class ExperimentForm extends Mixins(ValidatorMixin) {
 </script>
 
 <style lang="scss">
-.antibiogram legend {
-  font-weight: bold;
-  width: 55px;
+$color: rgba(0, 0, 0, 0.6);
+
+.antibiogram {
+  margin: 7px;
+
+  label {
+    color: $color;
+    display: inline-block;
+    font-weight: bold;
+    width: 55px;
+  }
+
+  .v-item-group {
+    border-radius: 4px;
+    border: 1px solid $color;
+
+    .v-btn {
+      font-size: 16px;
+      margin: 0;
+      text-transform: uppercase;
+
+      &:not(.v-item--active),
+      &:not(.v-btn--active) {
+        color: $color;
+      }
+    }
+  }
 }
 </style>
