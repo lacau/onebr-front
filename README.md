@@ -5,7 +5,8 @@
 - Docker
 
 # Configurando variáveis de ambiente
-- Editar o arquivo **.env** localizado na raiz do projeto preenchendo as variáveis **VUE_APP_MAPBOX_USER_NAME** e **VUE_APP_MAPBOX_ACCESS_TOKEN** com as credenciais da conta mapbox
+- Editar o arquivo **.env** localizado na raiz do projeto preenchendo as variáveis **VUE_APP_MAPBOX_USER_NAME** e **VUE_APP_MAPBOX_ACCESS_TOKEN** 
+com as credenciais da conta mapbox. Preencher também a variável **VUE_APP_ANALYTICS_ID** com o ID do google analytics
 
 # Buildando a imagem docker #
 - Acessar caminho onde está o código fonte (raiz)
