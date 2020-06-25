@@ -190,6 +190,8 @@ export default class ExperimentTable extends Vue {
     try {
       await this.fetchExperimentById(id)
       this.experimentDialog = true
+
+      this.$ga.page(`${this.$router.currentRoute.path}/view`)
     } catch (err) {
       console.error(err)
     }
